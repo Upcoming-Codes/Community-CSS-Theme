@@ -1,0 +1,178 @@
+/*--------------
+DESIGNED BY RYLANSZOPA 
+www.rylanszopa.com
+--------------*/
+
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+
+@media screen and (min-width: 1151px) {
+
+#main_player{
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	top:0px;
+	margin:0px;
+	padding:0px;
+	width:110%:
+}
+
+#main_player .player_header{
+	top:80px;
+	left:10px;
+	position:absolute;
+	z-index:999;
+	-webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+#main_player .player_sharing{
+	left:-630px;
+	position:absolute;
+	z-index:9999;
+	background: rgba(0,0,0,0.5);
+	width:635px;
+	top:120px;
+	padding:10px 10px 5px 10px;
+	padding-left:30px;
+	border-radius: 5px;
+	font-size:12px!important;
+	-webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+#main_player .player_sharing:after{
+  content: "\f0a9";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #fff;
+    font-size: 32px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 0px;
+    right: -50px;
+}
+
+
+#main_player .player_sharing:hover{
+	left:10px;
+}
+
+#main_player .player_header span.hideVideo-el[style], #main_player .player_header span.skip-el[style]{
+	display:inline-block!important;
+	float:none;
+}
+
+#main-room{
+	max-width:1920px!important;
+	right:1.5em;
+}
+
+#main_player .play-song-link{
+	background: rgba(255,255,255,0.8)!important;
+	color:#333;
+	position:absolute;
+	clear:both!important;
+	left:560px;
+	right:0px;
+	z-index:999;
+	display:inline-block!important;
+	text-transform:uppercase;
+	max-height:37px;
+	padding:10px 15px!important;
+	font-size:0.8em!important;
+	width:170px!important;
+	font-weight:bold;
+	top:80px!important;
+	display:none;
+}
+
+#main-room .right_section{
+	z-index:97;
+}
+
+#browser{
+	z-index:98;
+}
+
+#chat{
+	background: rgba(0,0,0,0.1);
+	border-radius:15px;
+}
+
+#player-controller{
+	background:none;
+}
+
+#player-controller .left{
+	background: rgba(0,0,0,0.8);
+	overflow:hidden;
+}
+
+#player-controller .right, #header-global{
+	background: rgba(0,0,0,0.8);
+}
+
+#main_player .player_header span{
+	border-radius:5px;
+	background: rgba(0,0,0,0.8);
+	color:#fff;
+}
+
+.username{
+    text-transform: capitalize;
+}
+
+.isResident-dj .username{
+	color:#0ff!important;
+}
+
+.isCo-owner .username, .isOwner .username, .isMod .username{
+	color:#f0f!important;
+}
+.isMod .username{
+	color:#2dd22d!important;
+}
+.isManager .username{
+	color:#b3e790!important;
+}
+
+.playerPreview{
+	z-index:100;
+}
+
+#browser .browser-content .browser-content-main .sidebar .create-playlist, #browser .browser-content .browser-content-main .sidebar .import-playlist, #browser .browser-content .browser-content-header, #browser .browser-content .browser-content-main .sidebar, #browser .browser-content .browser-content-main .nano .content-videos{
+	background: rgba(0,0,0,0.8);
+}
+
+.eta_tooltip[style]{
+	left:4em!important;
+	bottom:4em!important;
+}
+
+#main-menu-right{
+	z-index:101;
+}
+
+#main_player .play-song-link i{
+	color:#AA74FE;
+}
+
+#player-controller .left ul li.infoContainer .infoContainerInner .progressBg, #main_player .player_header span.active, #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min, #main_player .play-song-link .queue-info {
+    background: #AA74FE;
+}
+
+#main_player .play-song-link .queue-info.queue-active {
+    display: block;
+    padding-top: 2px;
+}
+
+#addToPlaylistFloatContainer{
+	z-index:9999;
+}
